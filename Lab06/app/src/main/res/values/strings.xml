@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab06</string>
+    <string name="hoten">\@string/hoten</string>
+    <string name="cmnd">\@string/cmnd</string>
+    <string name="bangcap">\@string/bangcap</string>
+    <string name="caodang">\@string/caodang</string>
+    <string name="sothich">\@string/sothich</string>
+    <string name="docbao">\@string/docbao</string>
+    <string name="dócach">\@string/docsach</string>
+    <string name="doccoding">\@string/doccoding</string>
+    <string name="thongtinbosung">\@string/thongtinbosung</string>
+    <string name="nhapthongtinbosung">\@string/nhapthongtinbosung</string>
+    <string name="guithongtin">\@string/guithongtin</string>
+</resources>
