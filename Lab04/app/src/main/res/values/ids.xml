@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtC" type="id">edtc</item>
+    <item name="edtF" type="id">edtf</item>
+    <item name="btnCel" type="id">btncel</item>
+    <item name="btnFar" type="id">btnfar</item>
+    <item name="btnClear" type="id">btnclear</item>
+</resources>
