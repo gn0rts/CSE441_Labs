@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab05</string>
+    <string name="chuyendoinamduonglich">\@string/chuyendoinamduonglich</string>
+    <string name="namduonglich">\@string/namduonglich\n</string>
+    <string name="nhapnam">\@string/nhapnam</string>
+    <string name="chuyendoi">\@string/chuyendoi</string>
+    <string name="nâmmlich">\@string/namamlich</string>
+    <string name="namamlich">\@string/namamlich</string>
+</resources>
