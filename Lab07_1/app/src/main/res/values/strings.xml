@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab07_1</string>
+    <string name="this_is_child_activity">\@string/this_is_child_activity</string>
+    <string name="back_to_main_activity">\@string/back_to_main_activity</string>
+</resources>
