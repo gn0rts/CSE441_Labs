@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab01</string>
+    <string name="nh_p_s_a">nhapa</string>
+    <string name="nh_p_s_b">nhapb\n</string>
+    <string name="sum">sum</string>
+    <string name="k_t_qu">ketqua</string>
+</resources>
