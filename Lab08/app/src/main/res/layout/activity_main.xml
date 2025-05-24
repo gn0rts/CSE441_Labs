@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.bai8_intent_call_sms.MainActivity">
+
+    <Button
+        android:id="@+id/btncallphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call_phone"
+        android:textColor="#8BC34A"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        tools:ignore="VisualLintButtonSize,VisualLintBounds" />
+
+    <Button
+        android:id="@+id/btnsendsms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_sms"
+        android:textColor="#8BC34A"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        tools:ignore="VisualLintButtonSize,VisualLintBounds" />
+</LinearLayout>
