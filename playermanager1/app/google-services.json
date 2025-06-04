@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "21965244588",
+    "firebase_url": "https://playermanager-fdb69-default-rtdb.firebaseio.com",
+    "project_id": "playermanager-fdb69",
+    "storage_bucket": "playermanager-fdb69.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21965244588:android:6087329bbf6452e6557709",
+        "android_client_info": {
+          "package_name": "com.example.b1_playermanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq_EwI5jUInbiH33ZYRRz9Z6GCF3zwec0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21965244588:android:5a7914d7d0523e9c557709",
+        "android_client_info": {
+          "package_name": "com.example.playermanager1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq_EwI5jUInbiH33ZYRRz9Z6GCF3zwec0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
