@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "B2_PlayerManager"
 include(":app")
+include(":app")
+ 

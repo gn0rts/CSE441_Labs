@@ -2,44 +2,43 @@ package com.example.lab09;
 
 import android.app.Service;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.IBinder;
+import android.util.Log;
+
+import androidx.annotation.Nullable;
 
 public class MyService extends Service {
-    //Khai báo đối tượng mà Service quản lý
+
     MediaPlayer mymedia;
+
+    @Nullable
     @Override
     public IBinder onBind(Intent intent) {
-        // TODO: Return the communication channel to the
-        service.
-        throw new UnsupportedOperationException("Not yet
-                implemented");
+        return null;
     }
-    //Gọi hàm OnCreate để tạo đối tượng mà Service quản lý
+
     @Override
     public void onCreate() {
         super.onCreate();
-        mymedia =
-                MediaPlayer.create(MyService.this,R.raw.trentinhbanduoitinhy
-                        54
-                        eu);
-        mymedia.setLooping(true); //Cho phép lặp lại liên
-        tục
+        Log.d("Service", "onCreate");
+        mymedia = MediaPlayer.create(this, R.raw.tinhme);
+        mymedia.setLooping(true); // Cho phép lặp lại liên tục
     }
-    //Gọi Hàm onStartCommand để khởi chạy đối tượng mà
-    Service quản lý
+
     @Override
-    public int onStartCommand(Intent intent, int flags, int
-            startId) {
-        if (mymedia.isPlaying())
-            mymedia.pause();
-        else
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        Log.d("Service", "onStartCommand");
+        if (!mymedia.isPlaying()) {
             mymedia.start();
-        return super.onStartCommand(intent, flags, startId);
+        }
+        return START_NOT_STICKY;
     }
-    //Gọi Hàm onDestroy để dừng đối tượng mà Service quản lý
+
     @Override
     public void onDestroy() {
         super.onDestroy();
+        Log.d("Service", "onDestroy");
         mymedia.stop();
     }
 }
